@@ -1,0 +1,80 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.task {
+  width: 60%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  animation: fadeIn 300ms forwards;
+  transition: height 300ms;
+}
+
+.invisible {
+  height: 0;
+  animation: fadeOut 300ms forwards;
+}
+
+.text {
+  line-height: 100px;
+  height: 100%;
+  margin: 0;
+  text-align: end;
+  padding-right: 20px;
+  margin-left: auto;
+  font-size: 50px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.status {
+  aspect-ratio: 1/1;
+  border-right: 1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.delete {
+  aspect-ratio: 1/1;
+  border-left: 1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+.status_icon {
+  height: 50%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete_icon {
+  height: 50%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
