@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/localStorage_task_manager/static/css/main.6134db83.css",
+    "main.js": "/localStorage_task_manager/static/js/main.2bbf224d.js",
+    "static/js/453.67291ec9.chunk.js": "/localStorage_task_manager/static/js/453.67291ec9.chunk.js",
+    "index.html": "/localStorage_task_manager/index.html",
+    "main.6134db83.css.map": "/localStorage_task_manager/static/css/main.6134db83.css.map",
+    "main.2bbf224d.js.map": "/localStorage_task_manager/static/js/main.2bbf224d.js.map",
+    "453.67291ec9.chunk.js.map": "/localStorage_task_manager/static/js/453.67291ec9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6134db83.css",
+    "static/js/main.2bbf224d.js"
+  ]
+}
