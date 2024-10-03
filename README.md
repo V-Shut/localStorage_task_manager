@@ -1,5 +1,7 @@
 # Task Manager
 
+[DEMO_LINK](https://v-shut.github.io/localStorage_task_manager/)
+
 ## Project Description
 
 This project implements a simple task manager that allows users to add, delete, and change the status of their tasks. All data is stored in local storage, enabling users to keep their information even after reloading the page. Users can quickly enter new tasks, view a list of active tasks, and delete them with a single click.
